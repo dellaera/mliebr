@@ -10,6 +10,7 @@ app.get('/', (req,res)=>{
 });
 
 app.get('/login', (req,res)=>{
+
     res.sendFile(__dirname + '/views/login.html');
 });
 
